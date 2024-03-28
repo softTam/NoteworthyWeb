@@ -15,7 +15,11 @@ body {
   justify-content: space-around;
 }
 
+#thumbnail {
+  margin-bottom: 2rem;
+}
+
 #bottom-container {
-  width: 5rem;
+  width: 15rem;
   size: auto;
 }
