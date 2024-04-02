@@ -10,6 +10,10 @@ body {
   text-align: center;
 }
 
+/* #about-us {
+  height: calc(100vh - 70px);
+} */
+
 #bottom-half {
   display: flex;
   justify-content: space-around;
@@ -22,4 +26,16 @@ body {
 #bottom-container {
   width: 15rem;
   size: auto;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  width: 100%;
+  background-color: #fff; /* Adjust background color as needed */
+  z-index: 1000; /* Adjust z-index as needed */
+  padding-left: 0;
+  padding-right: 0;
 }
